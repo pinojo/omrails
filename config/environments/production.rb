@@ -68,3 +68,10 @@ Omrails::Application.configure do
   #In production, :host should be set to the actual host of your application.
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
+
+# Configuring Rackspace Cloud Files for Paperclip file uploads
+connection = Fog::Storage.new({
+  :provider           => 'Rackspace',
+  :rackspace_username => RACKSPACE_USERNAME,
+  :rackspace_api_key  => RACKSPACE_API_KEY
+})
