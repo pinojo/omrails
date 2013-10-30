@@ -79,7 +79,6 @@ Omrails::Application.configure do
      },
      :fog_directory => 'omrails',
      :fog_public => true,
-     :fog_host => 'http://b4a40795c3617b91d320-25e3ca868ca0d6d10545d68f23f5a8ed.r9.cf2.rackcdn.com'
    })
      
 end
