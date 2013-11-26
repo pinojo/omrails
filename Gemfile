@@ -6,6 +6,7 @@ gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 3.0"
 gem "fog", "~> 1.16.0"
+gem 'faker'
 
 group :production do
   gem 'pg'

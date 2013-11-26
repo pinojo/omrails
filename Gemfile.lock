@@ -52,6 +52,8 @@ GEM
     erubis (2.7.0)
     excon (0.27.6)
     execjs (2.0.0)
+    faker (1.2.0)
+      i18n (~> 0.5)
     fog (1.16.0)
       builder
       excon (~> 0.27.0)
@@ -150,6 +152,7 @@ DEPENDENCIES
   bootstrap-sass (~> 2.2.2.0)
   coffee-rails (~> 3.2.1)
   devise
+  faker
   fog (~> 1.16.0)
   jquery-rails
   paperclip (~> 3.0)
